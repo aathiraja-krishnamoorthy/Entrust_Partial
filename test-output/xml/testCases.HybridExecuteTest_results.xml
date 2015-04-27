@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="51"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="22.491">
+  <properties />
+  
+  
+            <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="4.573" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.015" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="2.847" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.095" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="1.638" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.016" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.015" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.015" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.063" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="1.532" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="10.961" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.236" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testTest" time="0.016" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.280" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.015" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.016" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.000" classname="testCases.HybridExecuteTest" />
+                <testcase name="testLogin" time="0.158" classname="testCases.HybridExecuteTest" />
+      
+</testsuite>
