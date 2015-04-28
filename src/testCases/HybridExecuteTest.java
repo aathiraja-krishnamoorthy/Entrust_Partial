@@ -198,7 +198,7 @@ public class HybridExecuteTest {
 		Properties ppp = obj.getAllRepository();
 
 		// Main Test Files
-		Sheet testFiles = file.readExcel(System.getProperty("user.dir") + "",
+		Sheet testFiles = file.readExcel(System.getProperty("user.dir") + "/xls/",
 				ppp.getProperty("testFiles"), "Sheet1");
 		System.out.println("\n\nTest Files Sheet Loaded....");
 		int fileRow = testFiles.getLastRowNum() + 1;
@@ -240,7 +240,7 @@ public class HybridExecuteTest {
 			System.out
 					.println("\n\nLoading 'Master Sheet' of " + fileY[fileNo]);
 			Sheet masterSheet = file.readExcel(System.getProperty("user.dir")
-					+ "", fileY[fileNo], "Master");
+					+ "/xls/", fileY[fileNo], "Master");
 			System.out.println("Master Sheet Loaded...");
 
 			int rowNum = masterSheet.getLastRowNum() + 1;
@@ -320,7 +320,7 @@ public class HybridExecuteTest {
 			for (int iLoop1 = 0; iLoop1 < sheetCount; iLoop1++) {
 				System.out.println("\n\nSheet in fetch : " + sheetY[iLoop1]);
 				Sheet testSheet = file.readExcel(System.getProperty("user.dir")
-						+ "", fileName[fileNo], sheetY[iLoop1]);
+						+ "/xls/", fileName[fileNo], sheetY[iLoop1]);
 				System.out.println(testSheet.getSheetName()
 						+ " Sheet loaded....");
 
