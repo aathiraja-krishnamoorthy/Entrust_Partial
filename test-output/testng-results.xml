@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="51" passed="51">
+<testng-results skipped="0" failed="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29525" started-at="2015-04-28T12:19:37Z" finished-at="2015-04-28T12:20:06Z">
+  <suite name="Suite" duration-ms="44811" started-at="2015-04-29T07:00:23Z" finished-at="2015-04-29T07:01:08Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="29525" started-at="2015-04-28T12:19:37Z" finished-at="2015-04-28T12:20:06Z">
+    <test name="Test" duration-ms="44811" started-at="2015-04-29T07:00:23Z" finished-at="2015-04-29T07:01:08Z">
       <class name="testCases.HybridExecuteTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="setup" is-config="true" duration-ms="5530" started-at="2015-04-28T17:49:37Z" finished-at="2015-04-28T17:49:42Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@7c18d288]" name="setup" is-config="true" duration-ms="19550" started-at="2015-04-29T12:30:23Z" finished-at="2015-04-29T12:30:43Z">
           <params>
             <param index="0">
               <value>
@@ -18,28 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="18" started-at="2015-04-28T17:49:43Z" data-provider="hybridData" finished-at="2015-04-28T17:49:43Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:49:43Z" data-provider="hybridData" finished-at="2015-04-28T17:49:43Z">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@7c18d288]" name="testLogin" duration-ms="78" started-at="2015-04-29T12:30:44Z" data-provider="hybridData" finished-at="2015-04-29T12:30:44Z">
           <params>
             <param index="0">
               <value>
@@ -47,22 +26,30 @@
               </value>
             </param>
             <param index="1">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[]]>
+              </value>
             </param>
             <param index="2">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[]]>
+              </value>
             </param>
             <param index="3">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[]]>
+              </value>
             </param>
             <param index="4">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[]]>
+              </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="5932" started-at="2015-04-28T17:49:43Z" data-provider="hybridData" finished-at="2015-04-28T17:49:49Z">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@7c18d288]" name="testLogin" duration-ms="5306" started-at="2015-04-29T12:30:44Z" data-provider="hybridData" finished-at="2015-04-29T12:30:49Z">
           <params>
             <param index="0">
               <value>
@@ -93,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="158" started-at="2015-04-28T17:49:49Z" data-provider="hybridData" finished-at="2015-04-28T17:49:49Z">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@7c18d288]" name="testLogin" duration-ms="345" started-at="2015-04-29T12:30:49Z" data-provider="hybridData" finished-at="2015-04-29T12:30:49Z">
           <params>
             <param index="0">
               <value>
@@ -124,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="93" started-at="2015-04-28T17:49:49Z" data-provider="hybridData" finished-at="2015-04-28T17:49:49Z">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@7c18d288]" name="testLogin" duration-ms="93" started-at="2015-04-29T12:30:49Z" data-provider="hybridData" finished-at="2015-04-29T12:30:49Z">
           <params>
             <param index="0">
               <value>
@@ -155,7 +142,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="3046" started-at="2015-04-28T17:49:49Z" data-provider="hybridData" finished-at="2015-04-28T17:49:52Z">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@7c18d288]" name="testLogin" duration-ms="2583" started-at="2015-04-29T12:30:49Z" data-provider="hybridData" finished-at="2015-04-29T12:30:52Z">
           <params>
             <param index="0">
               <value>
@@ -178,13 +165,15 @@
               </value>
             </param>
             <param index="4">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[]]>
+              </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="204" started-at="2015-04-28T17:49:52Z" data-provider="hybridData" finished-at="2015-04-28T17:49:52Z">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@7c18d288]" name="testLogin" duration-ms="408" started-at="2015-04-29T12:30:52Z" data-provider="hybridData" finished-at="2015-04-29T12:30:52Z">
           <params>
             <param index="0">
               <value>
@@ -207,13 +196,15 @@
               </value>
             </param>
             <param index="4">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[]]>
+              </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="328" started-at="2015-04-28T17:49:52Z" data-provider="hybridData" finished-at="2015-04-28T17:49:52Z">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@7c18d288]" name="testLogin" duration-ms="218" started-at="2015-04-29T12:30:52Z" data-provider="hybridData" finished-at="2015-04-29T12:30:53Z">
           <params>
             <param index="0">
               <value>
@@ -236,13 +227,15 @@
               </value>
             </param>
             <param index="4">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[]]>
+              </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="1628" started-at="2015-04-28T17:49:52Z" data-provider="hybridData" finished-at="2015-04-28T17:49:54Z">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@7c18d288]" name="testLogin" duration-ms="1654" started-at="2015-04-29T12:30:53Z" data-provider="hybridData" finished-at="2015-04-29T12:30:54Z">
           <params>
             <param index="0">
               <value>
@@ -265,13 +258,15 @@
               </value>
             </param>
             <param index="4">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[]]>
+              </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="1516" started-at="2015-04-28T17:49:54Z" data-provider="hybridData" finished-at="2015-04-28T17:49:56Z">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@7c18d288]" name="testLogin" duration-ms="1620" started-at="2015-04-29T12:30:54Z" data-provider="hybridData" finished-at="2015-04-29T12:30:56Z">
           <params>
             <param index="0">
               <value>
@@ -294,13 +289,15 @@
               </value>
             </param>
             <param index="4">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[]]>
+              </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="10524" started-at="2015-04-28T17:49:56Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@7c18d288]" name="testLogin" duration-ms="12236" started-at="2015-04-29T12:30:56Z" data-provider="hybridData" finished-at="2015-04-29T12:31:08Z">
           <params>
             <param index="0">
               <value>
@@ -331,829 +328,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="16" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="15" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="15" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="16" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="15" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="16" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="15" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testTest()[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testTest" duration-ms="0" started-at="2015-04-28T17:50:06Z" finished-at="2015-04-28T17:50:06Z">
+        <test-method status="PASS" signature="testTest()[pri:0, instance:testCases.HybridExecuteTest@7c18d288]" name="testTest" duration-ms="0" started-at="2015-04-29T12:31:08Z" finished-at="2015-04-29T12:31:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTest -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HybridExecuteTest@617ed173]" name="testLogin" duration-ms="0" started-at="2015-04-28T17:50:06Z" data-provider="hybridData" finished-at="2015-04-28T17:50:06Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
       </class> <!-- testCases.HybridExecuteTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

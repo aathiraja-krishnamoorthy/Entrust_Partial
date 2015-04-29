@@ -9,6 +9,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.util.ArrayList;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -34,10 +35,10 @@ import org.openqa.selenium.WebElement;
 import excelExportAndFileIO.ReadExcel;
 
 public class HybridExecuteTest {
-	// ArrayList<data> al = new ArrayList<data>();
+	ArrayList<Object> testStepObject = new ArrayList<Object>();
 	// List<Integer> items = new ArrayList<Integer>();
-	static Object[][] step = new Object[50][5];
-	static Object[][] test = new Object[50][5];
+	// static Object[][] step = new Object[50][5];
+	static Object[][] test = new Object[1][5];
 	int last = 1;
 	int lastrow = 1;
 	int k = 1;
@@ -198,8 +199,8 @@ public class HybridExecuteTest {
 		Properties ppp = obj.getAllRepository();
 
 		// Main Test Files
-		Sheet testFiles = file.readExcel(System.getProperty("user.dir") + "/xls/",
-				ppp.getProperty("testFiles"), "Sheet1");
+		Sheet testFiles = file.readExcel(System.getProperty("user.dir")
+				+ "/xls/", ppp.getProperty("testFiles"), "Sheet1");
 		System.out.println("\n\nTest Files Sheet Loaded....");
 		int fileRow = testFiles.getLastRowNum() + 1;
 		int fileCol = testFiles.getRow(0).getLastCellNum();
@@ -325,7 +326,7 @@ public class HybridExecuteTest {
 						+ " Sheet loaded....");
 
 				int row = testSheet.getLastRowNum();
-				int col = testSheet.getRow(0).getLastCellNum();
+				// int col = testSheet.getRow(0).getLastCellNum();
 				// TestCase = new Object[row][iColCount];
 				// TestCase = new Object[50][iColCount];
 				// lastrow = last + row - 1;
@@ -335,17 +336,17 @@ public class HybridExecuteTest {
 
 				while (testStep < row) {
 					Row tcRow = testSheet.getRow(testStep);
-					for (int j = 0; j < tcRow.getLastCellNum(); j++) {
+					for (int j = 0; j < 5; j++) {
 						Cell cell = tcRow
 								.getCell(
 										j,
 										org.apache.poi.ss.usermodel.Row.CREATE_NULL_AS_BLANK);
-						test[k][j] = cell.getStringCellValue();
+						test[0][j] = cell.getStringCellValue();
 						dataSplit split = new dataSplit();
 						// if (test[k][j] != null ||
 						// test[k][j].toString().length()!=0) {
 						if (j == 0) {
-							if (!test[k][0].toString().isEmpty()) {
+							if (!test[0][0].toString().isEmpty()) {
 								testCaseStart = testStep;
 								testCaseStart--;
 							}
@@ -367,10 +368,13 @@ public class HybridExecuteTest {
 
 							while (d <= temp.length) {
 								b1 = true;
-								step[k][j] = temp[d];
+								// step[k][j] = temp[d];
+								testStepObject.add(temp[d]);
 								d++;
+								// System.out.println("String Value ::: [" + k
+								// + "][" + j + "] : " + step[k][j]);
 								System.out.println("String Value ::: [" + k
-										+ "][" + j + "] : " + step[k][j]);
+										+ "][" + j + "] : " + testStepObject);
 								break;
 							}
 							if (d == temp.length) {
@@ -386,9 +390,10 @@ public class HybridExecuteTest {
 							// TestCase[k][j] = split.dataFetch(
 							// cell.getStringCellValue(), testSheet);
 						} else {
-							step[k][j] = cell.getStringCellValue();
+							// step[k][j] = cell.getStringCellValue();
+							testStepObject.add(cell.getStringCellValue());
 							System.out.println("String Value ::: [" + k + "]["
-									+ j + "] : " + step[k][j]);
+									+ j + "] : " + testStepObject);
 
 						}
 
@@ -429,6 +434,15 @@ public class HybridExecuteTest {
 
 			}// For iLoop2
 
+		}
+		int row = testStepObject.size() / 5;
+		int z = 0;
+		Object[][] step = new Object[row][5];
+		for (int i = 0; i < row; i++) {
+			for (int j = 0; j < 5; j++) {
+				step[i][j] = testStepObject.get(z);
+				z++;
+			}
 		}
 
 		return step;
