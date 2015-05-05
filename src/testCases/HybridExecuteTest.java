@@ -5,7 +5,6 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 import org.testng.annotations.Test;
 
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -29,8 +28,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 import excelExportAndFileIO.ReadExcel;
 
@@ -44,49 +41,19 @@ public class HybridExecuteTest {
 	int k = 1;
 	int testCaseStart = 0;
 	private static String suite[][];
-	static String sFeature, sRun, sDescription, sWindow, sObject, sAction,
-			sData, tData, sTitle, sBrowser, sObject_Identifier, sProperty;
 	static String[] sheetY, sTestCase_ID, sExecute, sTestCase_Name, sIteration,
 			sFunctional_Area, tComment, tAction, tLabelName, tObjectName,
 			tParent_Object, tInputData, tExpectedData;
 	static String[] fileName, fileExecute, fileY;
-	protected static File inputWorkbook;
-	static int iFeatureCount = 1;
-	static int fileCount = 1;
-	static int iStepCount;
-	// variable declaration for iKeyword interface
-	// static Keyword_Name kAction;
-	static int iTime = 5000;
-	static WebDriver driver;
-	static WebElement element;
-	static By bProperty;
-	static boolean fBrowser, TestCaseStatus = true;
-	Sheet sheet;
-	// Variable declaration for IReport interface
-	static BufferedWriter output = null;
-	static File file;
-	static String sDateTime, sFilename, sBodyText;
-	String screenshotpath, strDesc;
-	String TestExecutionTime;
-	static String htmlreport;
-	// Variable declaration for IUtility interface
-	static int Timeout = 30;
-
-	protected StringBuffer verificationErrors = new StringBuffer();
-
-	// Properties p = new Properties();
-
-	// Properties propObj = prop.getObjectRepository();
 
 	WebDriver webdriver = null;
 
 	// @BeforeClass
-	// // public void setupBeforeSuite(ITestContext context) {
-	// public void setup() {
+	// public void setupBeforeSuite(ITestContext context) {
 	// System.setProperty("webdriver.firefox.bin",
 	// "E:\\Mozilla Firefox\\firefox.exe");
 	// webdriver = new FirefoxDriver();
-	// // context.setAttribute(ScreenshotReportNGUtils.DRIVER_ATTR, webdriver);
+	// context.setAttribute(ScreenshotReportNGUtils.DRIVER_ATTR, webdriver);
 	// }
 
 	@BeforeClass
@@ -103,27 +70,19 @@ public class HybridExecuteTest {
 			webdriver = new EventFiringWebDriver(new FirefoxDriver())
 					.register(eventListener);
 			System.out.println("Firefox Loaded...");
-		}
-		// Check if parameter passed as 'chrome'
-		else if (browser.equalsIgnoreCase("chrome")) {
-			// set path to chromedriver.exe You may need to download it from
-			// http://code.google.com/p/selenium/wiki/ChromeDriver
-			// System.setProperty("webdriver.chrome.driver","E:\\aathiraja\\Selenium Projects\\Selenium Jar files\\chromedriver.exe");
+		} else if (browser.equalsIgnoreCase("chrome")) {
 			File file = new File(System.getProperty("user.dir")
 					+ "/drivers/chromedriver.exe");
 			System.setProperty("webdriver.chrome.driver",
 					file.getAbsolutePath());
-			// create chrome instance
+			// create Chrome instance
 			webdriver = new ChromeDriver();
 			System.out.println("Chrome Launched.....");
 		} else if (browser.equalsIgnoreCase("ie")) {
-			// set path to IEdriver.exe You may need to download it from
-			// 32 bits
-			// http://selenium-release.storage.googleapis.com/2.42/IEDriverServer_Win32_2.42.0.zip
-			// 64 bits
-			// http://selenium-release.storage.googleapis.com/2.42/IEDriverServer_x64_2.42.0.zip
-			System.setProperty("webdriver.ie.driver", "C:/IEdriver.exe");
-			// create chrome instance
+			File file = new File(System.getProperty("user.dir")
+					+ "/drivers/IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
+			// create IE instance
 			webdriver = new InternetExplorerDriver();
 		} else {
 			// If no browser passed throw exception
@@ -156,37 +115,20 @@ public class HybridExecuteTest {
 		System.out.println("Object Type    : " + objectType);
 		System.out.println("Value          : " + value);
 
-		// if(testcaseName!=null&&testcaseName.length()!=0){
-		// webdriver=new FirefoxDriver();
-		// }
 		ReadProperties objects = new ReadProperties();
 		Properties allProperties = objects.getAllRepository();
-		// Properties object = objects.getObjectRepository();
-		// Properties config = objects.getConfigRepository();
-		// Properties data=objects.getDataRepository();
-
-		// allProperties.putAll(object);
-		// allProperties.putAll(config);
-		// allProperties.putAll(data);
 		UIOperation operation = new UIOperation(webdriver);
+
 		// Call perform function to perform operation on UI
 		if (value == null)
 			value = "";
 		operation
 				.perform(allProperties, keyword, objectName, objectType, value);
-		// operation.perform(keyword, objectName, objectType, value);
 
 	}
 
 	@DataProvider(name = "hybridData")
 	public Object[][] getDataFromDataprovider() throws IOException {
-		System.out.println("TEST TEST....");
-		// ArrayList al = new ArrayList();
-
-		// Object[][] data = null;
-		// System.out.println("Start...");
-		// System.out.println(System.getProperty("user.dir")+
-		// "\\"+ppp.getProperty("testCaseFileName"));
 		boolean b1 = false;
 		int testStep = 1;
 		int d = 1;
@@ -224,7 +166,6 @@ public class HybridExecuteTest {
 		fileY = new String[testFiles.getLastRowNum()];
 		fileExecute = new String[testFiles.getLastRowNum()];
 		int count = 0;
-		// int lastSheetNo = testFiles.getLastRowNum()+1;
 
 		System.out.println("\n\nFiles marked as 'Y' to be tested....");
 		for (int k = 1; k < fileRow; k++) {
@@ -272,10 +213,7 @@ public class HybridExecuteTest {
 			sheetY = new String[masterSheet.getLastRowNum()];
 			int rowMaster = masterSheet.getLastRowNum() + 1;
 			int sheetCount = 0;
-			// Vector<String> dynamicRow=new
-			// Vector<String>(rowMaster,rowMaster);
 			System.out.println("Rows in Master Sheet : " + rowMaster);
-			// int[] tcID = new int[guru99Sheet.getLastRowNum()];
 
 			System.out.println("\n\nSheets to be tested (passing 'Y').... ");
 			for (int k = 1; k < rowMaster; k++) {
@@ -285,16 +223,6 @@ public class HybridExecuteTest {
 					sTestCase_Name[sheetCount] = suite[k][2];
 					sIteration[sheetCount] = suite[k][3];
 					sFunctional_Area[sheetCount] = suite[k][4];
-					// System.out.println(guru99Sheet.getLastRowNum());
-
-					// debug("Suite : - Test Case ID : "
-					// + sTestCase_ID[iFeatureCount] + " , Execute : "
-					// + sExecute[iFeatureCount] + " , Test Case Name : "
-					// + sTestCase_Name[iFeatureCount] + " , Iteration : "
-					// + sIteration[iFeatureCount]
-					// + " , Functional Area : "
-					// + sFunctional_Area[iFeatureCount]
-					// + "Test Case Count :" + iFeatureCount);
 					System.out.println("Test Sheet : "
 							+ sTestCase_ID[sheetCount]);
 
@@ -317,7 +245,6 @@ public class HybridExecuteTest {
 			System.out.println("....");
 			System.out.println("....");
 
-			// iFeatureCount=iFeatureCount-1;
 			for (int iLoop1 = 0; iLoop1 < sheetCount; iLoop1++) {
 				System.out.println("\n\nSheet in fetch : " + sheetY[iLoop1]);
 				Sheet testSheet = file.readExcel(System.getProperty("user.dir")
@@ -326,13 +253,6 @@ public class HybridExecuteTest {
 						+ " Sheet loaded....");
 
 				int row = testSheet.getLastRowNum();
-				// int col = testSheet.getRow(0).getLastCellNum();
-				// TestCase = new Object[row][iColCount];
-				// TestCase = new Object[50][iColCount];
-				// lastrow = last + row - 1;
-				// if (row <= 0)
-				// break;
-				// for (int i = 1; i < row; i++) {
 
 				while (testStep < row) {
 					Row tcRow = testSheet.getRow(testStep);
@@ -343,8 +263,6 @@ public class HybridExecuteTest {
 										org.apache.poi.ss.usermodel.Row.CREATE_NULL_AS_BLANK);
 						test[0][j] = cell.getStringCellValue();
 						dataSplit split = new dataSplit();
-						// if (test[k][j] != null ||
-						// test[k][j].toString().length()!=0) {
 						if (j == 0) {
 							if (!test[0][0].toString().isEmpty()) {
 								testCaseStart = testStep;
@@ -359,21 +277,16 @@ public class HybridExecuteTest {
 								}
 							}
 						}
-						
 
 						if (cell.getStringCellValue().contains("|")) {
 
 							Object[] temp = split.dataFetch(
 									cell.getStringCellValue(), testSheet);
-							// for (int d = 1; d < temp.length; d++) {
 
 							while (d <= temp.length) {
 								b1 = true;
-								// step[k][j] = temp[d];
 								testStepObject.add(temp[d]);
 								d++;
-								// System.out.println("String Value ::: [" + k
-								// + "][" + j + "] : " + step[k][j]);
 								System.out.println("String Value ::: [" + k
 										+ "][" + j + "] : " + testStepObject);
 								break;
@@ -383,15 +296,7 @@ public class HybridExecuteTest {
 								b1 = false;
 								d = 1;
 							}
-							// temp = data.getParameterValue("request");
-							// Object log = temp == null ? null :
-							// (temp.getClass().isArray() ?
-							// Arrays.asList((Object[])temp) : temp);
-
-							// TestCase[k][j] = split.dataFetch(
-							// cell.getStringCellValue(), testSheet);
 						} else {
-							// step[k][j] = cell.getStringCellValue();
 							testStepObject.add(cell.getStringCellValue());
 							System.out.println("String Value ::: [" + k + "]["
 									+ j + "] : " + testStepObject);
@@ -399,13 +304,6 @@ public class HybridExecuteTest {
 						}
 
 					}
-					// if (TestCase[k][0].toString().isEmpty()
-					// && TestCase[k][1].toString().isEmpty()
-					// && TestCase[k][2].toString().isEmpty()
-					// && TestCase[k][3].toString().isEmpty()) {
-					// testCaseStart = testStep;
-					// testCaseStart--;
-					// }
 
 					System.out.println("New Row : " + testStep);
 					k++;
@@ -448,15 +346,5 @@ public class HybridExecuteTest {
 
 		return step;
 	}
-	// DATA PROVIDER
-
-	// @DataProvider(name = "hybridData")
-	// public Object[][] getData() throws IOException {
-	// System.out.println("TESTTESTTEST....");
-	// // ArrayList al = new ArrayList();
-	// Object[][] TestCase = null;
-	//
-	// return TestCase;
-	// }
 
 }

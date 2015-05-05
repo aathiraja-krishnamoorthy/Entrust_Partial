@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry including="**/*.java" kind="src" path="src">
+	<classpathentry including="**/*.java|testCases/" kind="src" path="src">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
@@ -11,11 +11,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="Jars/guice-3.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="Jars/jsoup-1.8.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="Jars/log4j-1.2.17.jar"/>
-	<classpathentry exported="true" kind="lib" path="Jars/reportng-1.1.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="Jars/velocity-dep-1.4.jar"/>
 	<classpathentry exported="true" kind="lib" path="Jars/selenium/selenium-chrome-driver-2.13.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="Jars/selenium/selenium-java-2.42.2.jar"/>
 	<classpathentry exported="true" kind="lib" path="Jars/selenium/libs/apache-mime4j-0.6.jar"/>
@@ -62,5 +57,10 @@
 	<classpathentry exported="true" kind="lib" path="Jars/POI/poi-ooxml-3.11-20141221.jar"/>
 	<classpathentry exported="true" kind="lib" path="Jars/POI/poi-ooxml-schemas-3.11-20141221.jar"/>
 	<classpathentry exported="true" kind="lib" path="Jars/POI/poi-scratchpad-3.11-20141221.jar"/>
+	<classpathentry exported="true" kind="lib" path="Jars/others/guice-3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="Jars/others/jsoup-1.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="Jars/others/log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="Jars/others/reportng-1.1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="Jars/others/velocity-dep-1.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
